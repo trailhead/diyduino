@@ -6094,16 +6094,16 @@ Reichelt
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="POWER" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
-<part name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="0.1uF"/>
+<part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="0.1uF"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED2" library="adafruit" deviceset="LED" device="3MM" value="GRN"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C5" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="0.1uF"/>
-<part name="C6" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="0.1uF"/>
+<part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="0.1uF"/>
+<part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="0.1uF"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value=" "/>
-<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value=" "/>
-<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value=" "/>
+<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value=" "/>
 <part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value=" "/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value=" "/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38009/1"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -6116,7 +6116,7 @@ Reichelt
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="3MM" value="RED"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value=" "/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value=" "/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -6153,18 +6153,18 @@ Reichelt
 </instance>
 <instance part="GND12" gate="1" x="157.48" y="109.22"/>
 <instance part="POWER" gate="A" x="157.48" y="127"/>
-<instance part="C4" gate="G$1" x="205.74" y="104.14"/>
+<instance part="C3" gate="G$1" x="205.74" y="104.14"/>
 <instance part="GND13" gate="1" x="205.74" y="111.76" rot="R180"/>
 <instance part="LED2" gate="G$1" x="190.5" y="114.3" rot="R180"/>
 <instance part="GND17" gate="1" x="190.5" y="127" rot="R180"/>
-<instance part="C5" gate="G$1" x="99.06" y="78.74" rot="R90"/>
-<instance part="C6" gate="G$1" x="116.84" y="45.72" smashed="yes" rot="MR180">
+<instance part="C1" gate="G$1" x="99.06" y="78.74" rot="R90"/>
+<instance part="C2" gate="G$1" x="116.84" y="45.72" smashed="yes" rot="MR180">
 <attribute name="NAME" x="123.063" y="47.625" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="R1" gate="G$1" x="160.02" y="17.78"/>
-<instance part="R3" gate="G$1" x="160.02" y="7.62"/>
-<instance part="R4" gate="G$1" x="134.62" y="86.36" rot="R90"/>
-<instance part="R5" gate="G$1" x="190.5" y="104.14" rot="R90"/>
+<instance part="R2" gate="G$1" x="160.02" y="7.62"/>
+<instance part="R5" gate="G$1" x="134.62" y="86.36" rot="R90"/>
+<instance part="R4" gate="G$1" x="190.5" y="104.14" rot="R90"/>
 <instance part="J1" gate="G$1" x="45.72" y="63.5"/>
 <instance part="GND4" gate="1" x="76.2" y="66.04"/>
 <instance part="P+5" gate="1" x="66.04" y="76.2" smashed="yes">
@@ -6183,7 +6183,7 @@ Reichelt
 <instance part="GND3" gate="1" x="76.2" y="30.48"/>
 <instance part="LED1" gate="G$1" x="243.84" y="116.84" rot="R180"/>
 <instance part="GND6" gate="1" x="243.84" y="129.54" rot="R180"/>
-<instance part="R2" gate="G$1" x="248.92" y="111.76" rot="R180"/>
+<instance part="R3" gate="G$1" x="248.92" y="111.76" rot="R180"/>
 <instance part="P+7" gate="1" x="256.54" y="132.08" smashed="yes">
 <attribute name="VALUE" x="258.445" y="134.62" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -6201,7 +6201,7 @@ Reichelt
 <segment>
 <wire x1="127" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="137.16" y1="50.8" x2="132.08" y2="50.8" width="0.1524" layer="91"/>
@@ -6215,7 +6215,7 @@ Reichelt
 <pinref part="ZIC1" gate="G$1" pin="VCC"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <pinref part="ZIC1" gate="G$1" pin="AVCC"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="129.54" x2="132.08" y2="139.7" width="0.1524" layer="91"/>
@@ -6246,7 +6246,7 @@ Reichelt
 <wire x1="66.04" y1="33.02" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
 <wire x1="254" y1="111.76" x2="256.54" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="111.76" x2="256.54" y2="129.54" width="0.1524" layer="91"/>
@@ -6272,7 +6272,7 @@ Reichelt
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="ZIC1" gate="G$1" pin="GND"/>
 <pinref part="ZIC1" gate="G$1" pin="AGND"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="127" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
@@ -6297,7 +6297,7 @@ Reichelt
 <pinref part="S1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="205.74" y1="109.22" x2="205.74" y2="106.68" width="0.1524" layer="91"/>
 </segment>
@@ -6355,7 +6355,7 @@ Reichelt
 <junction x="205.74" y="91.44"/>
 <label x="196.215" y="92.075" size="1.778" layer="95"/>
 <pinref part="IOH" gate="A" pin="8"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -6377,8 +6377,8 @@ Reichelt
 <label x="139.7" y="134.62" size="1.6764" layer="95"/>
 <pinref part="ZIC1" gate="G$1" pin="RESET"/>
 <pinref part="POWER" gate="A" pin="1"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="S1" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -6414,7 +6414,7 @@ Reichelt
 <wire x1="154.94" y1="7.62" x2="152.4" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="7.62" x2="152.4" y2="10.16" width="0.1524" layer="91"/>
 <label x="139.7" y="10.16" size="1.778" layer="95"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="50.8" y1="40.64" x2="86.36" y2="40.64" width="0.1524" layer="91"/>
 <junction x="86.36" y="40.64"/>
@@ -6436,7 +6436,7 @@ Reichelt
 <label x="201.295" y="86.36" size="1.778" layer="95"/>
 <pinref part="IOH" gate="A" pin="6"/>
 <pinref part="ZIC1" gate="G$1" pin="(SCK)PB5"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="ICSP" gate="A" pin="3"/>
@@ -6504,7 +6504,7 @@ Reichelt
 <wire x1="96.52" y1="58.42" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
 <label x="95.885" y="75.565" size="1.778" layer="95" rot="R90"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="J1" gate="G$1" pin="1"/>
 <pinref part="J2" gate="G$1" pin="5"/>
 <wire x1="50.8" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
@@ -6619,7 +6619,7 @@ Reichelt
 <label x="180.34" y="27.94" size="1.778" layer="95"/>
 <pinref part="IOL" gate="A" pin="2"/>
 <pinref part="ZIC1" gate="G$1" pin="(TXD)PD1"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="IO0" class="0">
@@ -6712,13 +6712,13 @@ Reichelt
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="190.5" y1="109.22" x2="190.5" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="114.3" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
